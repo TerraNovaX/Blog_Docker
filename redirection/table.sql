@@ -7,8 +7,8 @@ CREATE TABLE `utilisateur` (
                                `password` varchar(255) DEFAULT NULL,
                                PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
-
-CREATE TABLE 'messages' (
-    `id` int(11) NOT NULL AUTO_INCREMENT,
-    'message' text
-)
+CREATE TABLE `messagerie` (
+                              `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+                              `username` varchar(50) NOT NULL,
+                              `message` text NOT NULL
+) AUTO_INCREMENT=0;
