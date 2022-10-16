@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+body{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#deconnexion{
+    float: right;
+}
+#formulaire{
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 300px
+}
+#user{
+    padding: 10px;
+}
